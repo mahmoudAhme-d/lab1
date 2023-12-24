@@ -1,0 +1,9 @@
+name: First GitHub work flow
+on: push
+jobs:
+  explore-github-action:
+     runs-on: ubuntu-latest
+     steps:
+       -name: print hello world
+        run: echo "hello world"
+  
